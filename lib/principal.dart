@@ -48,7 +48,7 @@ class _PrincipalState extends State<Principal> {
                   decoration: InputDecoration(
                     filled: true,
                     fillColor: Colors.white,
-                    hintText: 'Buscar artistas e eventos',
+                    hintText: ' Buscar artistas e eventos',
                     suffixIcon: const Icon(
                       Icons.search
                     ),
