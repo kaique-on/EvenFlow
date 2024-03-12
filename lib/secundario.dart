@@ -14,10 +14,10 @@ class _SecundarioState extends State<Secundario> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: 
-      PreferredSize(preferredSize: Size.fromHeight(150), 
+      PreferredSize(preferredSize: Size.fromHeight(120), 
       
         child: Container(
-          padding: EdgeInsets.all(24),
+          padding: EdgeInsets.only(top: 36, bottom: 12, right: 24, left: 24), 
           color: Color.fromARGB(255, 195, 74, 70),
           child: Column(
             
@@ -48,7 +48,7 @@ class _SecundarioState extends State<Secundario> {
                   decoration: InputDecoration(
                     filled: true,
                     fillColor: Colors.white,
-                    hintText: 'Buscar artistas e eventos',
+                    hintText: 'Buscar artistas e eventos ',
                     suffixIcon: const Icon(
                       Icons.search
                     ),
